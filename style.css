@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 560px;
+    background-image: url("./Assets/backgroundHeader.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header img {
+    margin-top: 47px;
+    margin-left: 65px;
+}
+
+#textHeader {
+    color: white;
+    margin-top: 100px;
+    margin-left: 172px;
+}
+
+#textHeader h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 128.5%;
+}
+
+#textHeader h2 {
+    margin-top: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+#info {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 170px;
+    padding-right: 170px;
+    height: 170px;
+
+    background: #EAECE5;
+}
+
+#info p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    align-items: center;
+    color: #122235;
+    width: 300px;
+    padding-left: 16px;
+}
+
+.container {
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#mid {
+    display: flex;
+    padding-bottom: 80px;
+}
+
+#imgMid {
+    padding-top: 80px;
+    padding-left: 174px;
+}
+
+#imgMid img {
+    width: 430px;
+}
+
+#textMid {
+    padding-top: 85px;
+    padding-left: 64px;
+    width: 37%;
+}
+
+#textMid h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    color: #247BA0;
+}
+
+#textMid p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #383838;
+}
+
+#texto2Mid {
+    padding-top: 10px;
+}
